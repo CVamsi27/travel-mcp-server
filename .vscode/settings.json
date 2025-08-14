@@ -1,0 +1,8 @@
+{
+  "mcp.servers": {
+    "travel": {
+      "command": "node",
+      "args": ["src/index.js"]
+    }
+  }
+}

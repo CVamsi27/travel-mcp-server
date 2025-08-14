@@ -1,0 +1,23 @@
+{
+  "name": "travel-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "setup": "node setup-mcp-config.js",
+    "test": "node tests/test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "amadeus": "latest",
+    "dotenv": "latest",
+    "node-cache": "latest",
+    "p-limit": "latest",
+    "p-retry": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}

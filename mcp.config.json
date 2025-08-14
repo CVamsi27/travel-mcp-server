@@ -1,0 +1,10 @@
+{
+    "servers": [
+      {
+        "name": "Travel MCP Server",
+        "command": "node",
+        "args": ["src/index.js"]
+      }
+    ]
+  }
+  
